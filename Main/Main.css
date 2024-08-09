@@ -1,0 +1,317 @@
+.main{
+    margin-top: 5rem;
+    /* margin-left: 5rem; */
+    width: 100%;
+    overflow: hidden;
+}
+
+.flex-1{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2rem;
+    color: #fff;
+}
+#disc h3{
+    background-color: #1d1c1c8e;
+    padding: 5px 15px 10px 15px;
+    border-radius: 10px;
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+}
+
+#intro{
+    margin-left: 5rm;
+}
+
+#intro h1{
+    font-size: 90px;
+    line-height: 1.2em;
+    font-weight: bold;
+    margin-left: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#intro h1 span{
+    color: rgb(12, 252, 252);
+}
+#intro p{
+    line-height: 1.5em;
+    font-size: 19px;
+    margin-left: 5rem;
+    color: #dcdcdcc8;
+}
+#rob img{
+    height: 500px;
+    width: 500px;
+    animation: moveUpDown 2s ease-in-out infinite;
+}
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px); /* Adjust the value for the height of the move */
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.flex-2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 6rem;
+    margin-right: 5rem;
+    margin-top: 3rem;
+}
+.flex-2 h1{
+    color: #fff;
+    font-size: 35px;
+}
+.flex-2 h1 span{
+    font-size: 22px;
+    color: rgb(12, 252, 252);
+}
+/* end of flex-2 */
+.flex-3{
+    margin-left: 5rem;
+    margin-top: 5rem;
+    color: #fff;
+    justify-content: space-between;
+    display: flex;
+}
+.flex-3 h1{
+    font-size: 60px;
+    margin-bottom: 2rem;
+}
+.flex-3 p{
+    line-height: 1.5em;
+    font-size: 19px;
+    margin-bottom: 1rem;
+    color: #dcdcdcb1;
+}
+.flex-3 button{
+    padding: 10px 20px 10px 20px;
+    color: #000;
+    background-color: rgb(0, 255, 255);
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+}
+.flex-3 button:hover{
+    background-color: rgba(59, 238, 238, 0.78);
+}
+
+#box-1{
+    display: flex;
+    margin-right: 8rem;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+
+#img-1 img{
+    padding-top: 5px;
+    padding-right: 15px;
+}
+.flex-4{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+#pay img{
+    width: 500px;
+    height: 500px;
+    padding-left: 5rem;
+}
+#download{
+    margin-right: 7rem;
+    margin-top: 4rem;
+}
+#download h1{
+    font-size: 60px;
+    color: #fff;
+}
+#download p{
+    line-height: 1.5em;
+    font-size: 21px;
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+    color: #dcdcdcb1;
+}
+#store img{
+    padding-right: 20px;
+}
+/* end of flex 4 */
+.flex-5{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+#deal{
+    margin-left: 5rem;
+}
+#deal h1{
+    font-size: 60px;
+    color: #fff;
+}
+#deal p{
+    line-height: 1.5em;
+    font-size: 21px;
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+    color: #dcdcdcb1;
+}
+#deal button{
+    padding: 10px 20px 10px 20px;
+    color: #000;
+    background-color: rgb(0, 255, 255);
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+}
+#deal button:hover{
+    background-color: rgba(59, 238, 238, 0.78);
+}
+#card img{
+    width: 600px;
+    height: 500px;
+    padding-right: 5rem;
+    animation: moveUpDown 2s ease-in-out infinite;
+}
+/* end of flex-5 */
+.flex-6{
+    display: flex;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    justify-content: space-between;
+}
+.flex-6 h1{
+    font-size: 50px;
+    color: #fff;
+}
+.flex-6 p{
+    margin-right: 6rem;
+    line-height: 1.5em;
+    font-size: 24px;
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+    color: #dcdcdcb1;
+}
+
+
+/* for mobile devices */
+@media screen and (max-width: 450px){
+    .main{
+        margin-top: 0;
+        margin-left: 0;
+    }
+    #intro{
+        margin-left: 0rem;
+    }
+    #disc h3{
+        margin-left: 0;
+        margin-top: 0;
+        font-size: 16px;
+    }
+    #intro h1{
+        font-size: 50px;
+        margin-left: 0;
+    }
+    #intro p{
+        line-height: 1.5em;
+        font-size: 16px;
+        margin: 0;
+    }
+    .flex-1{
+        flex-direction: column;
+    }
+    #rob img{
+        padding-top: 10px;
+        height: 400px;
+        width: 300px;
+    }
+    .flex-2{
+        flex-direction: column;
+        margin: 0;
+    }
+    .flex-2 h1 span{
+        font-size: 12px;
+    }
+    .flex-2 h1{
+        font-size: 30px;
+        padding-bottom: 20px;
+        margin-left: 1.5rem;
+    }
+    .flex-3{
+        margin-left: 1rem;
+        flex-direction: column;
+    }
+    .flex-3 h1{
+        font-size: 45px;
+        padding-bottom: 20px;
+        margin-left: 0.8rem;
+    }
+    .flex-3 p{
+        font-size: 15px;  
+    }
+    #box-1{
+        margin-top: 2rem;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    /* flex-4 for mobile */
+    .flex-4{
+        flex-direction: column;
+    }
+    #pay img{
+        width: 300px;
+        height: 300px;
+        padding-left: 20px;
+    }
+    #download{
+        margin-left: 1rem;
+        margin-right: 2rem;
+    }
+    #download h1{
+        font-size: 45px;
+        color: #fff;
+    }
+    #download p{
+        font-size: 20px;
+    }
+/* flex-5 for mobile */
+    .flex-5{
+        flex-direction: column;
+    }
+
+    #deal{
+        margin-left: 1rem;
+    }
+    #deal h1{
+        font-size: 40px;
+    }
+    #deal p{
+        font-size: 18px;
+        padding-top: 2rem;
+        margin-bottom: 1rem;
+        color: #dcdcdcb1;
+    }
+    #card img{
+        width: 300px;
+        height: 300px;
+        padding-left: 20px;
+        padding-top: 30px;
+    }
+    /* flex 6*/
+    .flex-6{
+        margin-left: 1rem;
+        flex-direction: column;
+        
+    }
+    .flex-6 h1{
+        font-size: 35px;
+    }
+    .flex-6 p{
+        line-height: 1.5em;
+        font-size: 15px;
+    }
+
+}
