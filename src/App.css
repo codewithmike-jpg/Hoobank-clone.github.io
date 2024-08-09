@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+body{
+    background-color: rgb(10, 6, 39);
+    font-family: "Dosis", sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+        /* overflow: hidden; */
+}

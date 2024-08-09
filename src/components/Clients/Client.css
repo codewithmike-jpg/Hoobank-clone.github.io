@@ -1,0 +1,52 @@
+.clients{
+    margin-top: 5rem;
+    margin-left: 5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5rem;
+}
+#com-1 {
+    margin-top: 1.5rem;
+    font-size: 22px;
+    color: #ffff;
+    line-height: 1.2em;
+}
+/* #com-1:hover{
+    background-color: rgba(86, 86, 86, 0.929);
+    max-width: 300px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+} */
+
+#dis{
+    display: flex;
+    margin-top: 2rem;
+}
+#ceo img{
+    width: 50px;
+    height: 50px;
+}
+#dis #name{
+    margin-left: 2rem;
+}
+#name h3{
+    font-size: 21px;
+}
+#name  p{
+    color: #dcdcdcb1;
+    font-size: 18px;
+}
+@media screen and (max-width: 450px){
+    .clients{
+        flex-direction: column;
+        margin-left: 1rem;
+        margin-right: 0;
+    }
+    #name  p{
+        font-size: 16px;
+    }
+    #com-1{
+        font-size: 20px;
+        margin-bottom: 2rem;
+    }
+}
